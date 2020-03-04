@@ -5,19 +5,19 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: heading
-  label: Content
+  label: DPLYR Docs
+- type: document
+  path: get-started
+  label: Get Started
+  match: "**/*"
+  read_only: false
 - type: directory
-  path: docs
-  label: Docs
+  path: node-js
+  label: Node JS
   create: all
   match: "**/*"
   templates:
   - documentation-page
-- type: heading
-  label: Settings
-- type: document
-  path: data/settings.json
-  label: Menu
 upload_dir: static
 public_path: ''
 front_matter_path: ''
