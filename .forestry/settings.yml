@@ -9,8 +9,6 @@ sections:
 - type: document
   path: get-started
   label: Get Started
-  match: "**/*"
-  read_only: false
 - type: directory
   path: node-js
   label: Node JS
@@ -18,6 +16,11 @@ sections:
   match: "**/*"
   templates:
   - documentation-page
+- type: document
+  path: uptime-monitoring
+  label: Uptime Monitoring
+  match: "**/*"
+  read_only: false
 upload_dir: static
 public_path: ''
 front_matter_path: ''
